@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato - Michel</title>
+  <!-- Importando fontes e estilos -->
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600;700&family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho com logo e navegação -->
+  <header>
+    <div class="logo">
+      Michel<span class="ponto">.</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Formulário de contato -->
+  <section class="sobre">
+    <div class="conteudo-sobre">
+      <form action="#" method="post" class="formulario-contato">
+        <!-- Campo de nome -->
+        <div class="grupo-formulario">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <!-- Campo de sobrenome -->
+        <div class="grupo-formulario">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome" required>
+        </div>
+        <!-- Campo de email -->
+        <div class="grupo-formulario">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <!-- Campo de assunto -->
+        <div class="grupo-formulario">
+          <label for="assunto">Assunto:</label>
+          <input type="text" id="assunto" name="assunto" required>
+        </div>
+        <!-- Campo de mensagem -->
+        <div class="grupo-formulario">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        </div>
+        <!-- Botão de envio -->
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* Estilos Gerais */
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+}
+
+.logo {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo .ponto {
+    color: #80b918;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #80b918;
+}
+
+/* Seção de Introdução */
+.intro {
+    background-color: black;
+    color: white;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.intro h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 20px;
+    line-height: 1.0;
+}
+
+/* Seções Específicas */
+
+.sobre {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre2 {
+    background-color: #9ee5bf;
+    border-radius: 15px;
+    padding: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    width: 100%;
+}
+
+.texto {
+    max-width: 60%;
+}
+
+.texto h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.texto p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.imagem img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Estilos para a página de Contato */
+.formulario-contato {
+    padding: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #9ee5bf;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do formulário de contato */
+.formulario-contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contato label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Estilos dos campos de nome */
+.formulario-contato .campos-nome {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario-contato .campos-nome input {
+    width: 50%;
+}
+
+/* Estilos do botão de envio */
+.formulario-contato button {
+    align-self: flex-end;
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.formulario-contato button:hover {
+    background-color: #ffcd4d;
+    color: black;
+}
